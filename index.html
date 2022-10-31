@@ -3,7 +3,8 @@
 <title>Testing Cross Origin Forms</title>
   <style>
     .form {
-      background-color: blue;
+      background-color: #cccccc;
+      padding: 15px;
       color: #ffffff;
       max-width: 600px;
       width: 100%;
@@ -18,7 +19,7 @@
   <div class="form">
     <h3>Cross Origin Form Test Box</h3>
     <p>This is a dummy form that is pulled from another source on the internet.</p>
-    <iframe id="gForm" src="https://dev.employsure.com.au/form-test" width="100%" frameBorder="0"><p>Your Browser Does Not Allow Our Forms :(</p></iframe>
+    <iframe id="gForm" src="https://dev.employsure.com.au/form-test" width="100%" frameBorder="0" allowtransparency="true"><p>Your Browser Does Not Allow Our Forms :(</p></iframe>
   </div>
   <script>
   function resizeIframe(height){
