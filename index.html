@@ -1,30 +1,155 @@
-<!DOCTYPE HTML>
-<head>
-<title>Testing Cross Origin Forms</title>
-  <style>
-    .form {
-      background-color: #cccccc;
-      padding: 15px;
-      color: #ffffff;
-      max-width: 600px;
-      width: 100%;
-      height: auto;
-      margin: 0 auto;
-    }
-  </style>
-</head>
-<body>
-<h1>Testing Cross Origin Forms</h1>
-<p>Using gravity forms from main site to testing space.</p>
-  <div class="form">
-    <h3>Cross Origin Form Test Box</h3>
-    <p>This is a dummy form that is pulled from another source on the internet.</p>
-    <iframe id="gForm" src="https://dev.employsure.com.au/form-test" width="100%" frameBorder="0" allowtransparency="true"><p>Your Browser Does Not Allow Our Forms :(</p></iframe>
-  </div>
-  <script>
-  function resizeIframe(height){
-    document.getElementById('gForm').height = parseInt(height)+60;
-  }
-</script>
-</body>
-</html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <title></title>
+    <style></style>
+  </head>
+
+  <body>
+    <div id="email" style="width:700px;">
+
+      <!-- Header --> 
+      <table role="workshop" border="0" cellspacing="0" width="100%" style="width: 100%;">
+        <tbody>
+          <tr>
+            <td>
+              <img src="https://ben-employsure.github.io/gravity-test/asset/221101ANZ-Events-Header-1400x630.jpg" style="max-width:100%">
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- Details --> 
+      <table role="workshop" border="0" cellspacing="0" width="100%"  style="width: 100%; background-color: #fffffff; font-family: sans-serif; color: #3c393a; font-size: 12px;">
+        <tbody>
+          <tr align="center">
+            <td width="50" style="width: 50px;"></td>
+            <td width="150" style="width: 150px; padding: 20px 0;">
+              <p style="line-height: 20px;"><span style="font-size: 14px; color:#0072ce;"><strong>Date</strong></span><br>
+                15th November 2022</p>
+            </td> 
+            <td width="150" style="width: 150px; padding: 20px 0;">
+              <p style="line-height: 20px;"><span style="font-size: 14px; color:#0072ce;"><strong>Time</strong></span><br>
+                8:30am - 10:30am
+              </p>
+            </td>
+            <td width="150" style="width: 150px; padding: 20px 0;">
+              <p style="line-height: 20px;"><span style="font-size: 14px; color:#0072ce;"><strong>Location</strong></span><br>
+                Quest Goulburn
+              </p>
+            </td> 
+            <td width="150" style="width: 150px; padding: 20px 0;">
+              <a href="blah" style="background: #0072ce; border-radius: 50px; padding: 10px 25px; color: #ffffff; text-decoration: none;"><strong>Register Now</strong></a>
+            </td> 
+            <td width="50" style="width: 50px;"></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- Body --> 
+      <table role="workshop" border="0" cellspacing="0" width="100%" style="width: 100%; background-color: #eeeeee; font-family: sans-serif; color: #3c393a; font-size: 14px; padding: 20px 0;">
+        <tbody>
+          <tr>
+            <td width="50" style="width: 50px;"></td>
+            <td>
+              <h2>Is managing a difficult employee consuming all your time?</h2>
+              <p>Wondering how to tackle this complicated situation?</p>
+              <h3>Attend our workshop to learn about:</h3>
+              <ul style="padding: 0 20px;">
+                <li style="padding-bottom: 10px">Managiing Employee Resignations and Dismissals</li>
+                <li style="padding-bottom: 10px">Protecting your Business with strong Employee Contracts & Policies</li>
+                <li style="padding-bottom: 10px">The latest changes to Employment Relations</li>
+                <li style="padding-bottom: 10px">Implementing effective WHS Policies</li>
+              </ul>
+              <p>Employsure has worked with 30,000 businesses aross Australia and New Zealand helping them with practical HR support and advice.</p>
+            </td> 
+            <td width="50" style="width: 50px;"></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- CTA -->
+      <table role="workshop" border="0" cellspacing="0" width="100%" style="width: 100%; background-color: #0072ce; font-family: sans-serif; color: #ffffff; font-size: 14px; padding: 20px 0;">
+        <tbody>
+          <tr>
+            <td width="50" style="width: 50px;"></td>
+            <td> 
+              <h3>Don't wait, secure your free seat today!</h3>
+            </td>
+            <td>
+              <a href="blah" style="background: white; border-radius: 50px; padding: 10px 25px; color: #0072ce; text-decoration: none;"><strong>Register Now</strong></a>
+            </td>
+            <td width="50" style="width: 50px;"></td>
+          </tr>
+        </tbody>
+      </table> 
+      
+      <!-- Closing -->
+      <table role="workshop" border="0" cellspacing="0" width="100%" style="width: 100%; background-color: #eeeeee; font-family: sans-serif; color: #3c393a; font-size: 14px; padding: 20px 0;">
+        <tbody>
+          <tr>
+            <td width="50" style="width: 50px;"></td>
+            <td>
+              <h2>Have a question?</h2>
+              <p>We're happy to answer all your questions and look forward to meeting you at the event.<br>
+                Phone: <strong>1300 835 409</strong> or email: <strong>events@employsure.com.au</strong></p>
+            </td>
+            <td width="50" style="width: 50px;"></td>
+          </tr>
+        </tbody>
+      </table> 
+      
+      <!-- Footer Links -->
+      <table role="workshop" border="0" cellspacing="0" width="100%" style="width: 100%; background-color: #ffffff; font-family: sans-serif; color: #3c393a; font-size: 12px; padding: 20px 0;">
+        <tbody>
+          <tr>
+            <td width="50" style="width: 50px;"></td>
+            <td>
+              <img src="https://ben-employsure.github.io/gravity-test/asset/Employsure-logo-no-tagline.png" style="width: 120px">
+            </td>
+            <td>
+              <img src="https://ben-employsure.github.io/gravity-test/asset/BrightHR-Slate.png" style="width: 80px;">
+            </td>
+            <td>Manage Preferences</td>
+            <td>Unsubscribe</td>
+            <td>Privacy Policy</td>
+            <td width="50" style="width: 50px;"></td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <!-- Footer Contact -->
+      <table role="workshop" border="0" cellspacing="0" width="100%" style="width: 100%; background-color: #ffffff; font-family: sans-serif; color: #3c393a; font-size: 12px;">
+        <tbody>
+          <tr>
+            <td width="50" style="width: 50px;"></td>
+            <td>
+              <p>Employsure Pty Ltd<br>
+                ABN: 40 145 676 026<br>
+                Level 6, 180 Thomas Street<br>
+                Haymarket, Sydney NSW, 2000</p>
+            </td>
+            <td width="50" style="width: 50px;"></td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <!-- Footer Disclaimer -->
+      <table role="workshop" border="0" cellspacing="0" width="100%" style="width: 100%; background-color: #ffffff; font-family: sans-serif; color: #3c393a; font-size: 9px; padding: 20px 0;">
+        <tbody>
+          <tr>
+            <td width="50" style="width: 50px;"></td>
+            <td style="width: 60%">
+              <p>This email was sent to . You are receiving this email because you are subscribed to Employsure's marketing communications, giving you access to newsletters, events, iindustry e-guides and more.</p>
+            </td>
+            <td>
+              Image - Image - Image - Image
+            </td>
+            <td width="50" style="width: 50px;"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
